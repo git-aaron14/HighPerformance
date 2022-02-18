@@ -14,27 +14,27 @@
 
 </head>
 <body>
-    <header>
-        <img src="./assets/gym-logo.JPEG" class="header__logo"  alt="logo-principal" >
-        <nav>
-            <ul class="menuPrincipal">
-                <li><a href="#">INICIO</a></li>
-                <li><a href="./productos.html">PRODUCTOS</a></li>
-                <li><a href="">POR CATEGORIA</a>
-                    <ul class="subMenu">
-                        <li><a href="./porfinalidad/aminoacidos.html">aminoacidos</a></li>
-                        <li><a href="./porfinalidad/creatinas.html">creatinas</a></li>
-                        <li><a href="./porfinalidad/preentreno.html">preentreno</a></li>
-                        <li><a href="./porfinalidad/proteinas.html">proteinas</a></li>    
+    <header class="header">
+        <img class="header__logo" src="./assets/gym-logo.JPEG" alt="logo-principal" >
+        <nav  class="header__nav">
+            <ul class="header__lista" class="menuPrincipal">
+                <li class="header__item"><a class="header__link" href="#">INICIO</a></li>
+                <li class="header__item"><a class="header__link" href="./productos.html">PRODUCTOS</a></li>
+                <li class="header__item"><a class="header__link" href="">POR CATEGORIA</a>
+                    <ul class="header__submenu" class="subMenu">
+                        <li class="header__submenu__item"><a href="./porfinalidad/aminoacidos.html">aminoacidos</a></li>
+                        <li class="header__submenu__item"><a href="./porfinalidad/creatinas.html">creatinas</a></li>
+                        <li class="header__submenu__item"><a href="./porfinalidad/preentreno.html">preentreno</a></li>
+                        <li class="header__submenu__item"><a href="./porfinalidad/proteinas.html">proteinas</a></li>    
                     </ul>
                 </li>
-                <li><a href="preguntas-frecuentes.html">FAQ</a></li>
-                <li><a href="./donde-comprar.html">DONDE COMPRAR</a></li>
+                <li class="header__item"><a class="header__link" href="preguntas-frecuentes.html">FAQ</a></li>
+                <li class="header__item"><a class="header__link" href="./donde-comprar.html">DONDE COMPRAR</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1 class="tituloCentral">High Performance</h1>
+    <main class="main">
+        <h1 class="main__titulo__principal" class="tituloCentral">High Performance</h1>
         
         <section class="sectionHero">
             <div class="container-fluid">
@@ -75,43 +75,43 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 d-flex-column text-center" class="col-sm-10 d-flex-column justify-content-around">
-                        <img src="./assets/protein.JPEG.JPEG" alt="" class="imagenProteina">
-                        <p class="sectionProteina">La proteína es un componente importante de nuestros huesos, músculos, cartílagos, piel y sangre.</p>
+                        <img src="./assets/protein.JPEG.JPEG" alt="" class="main__section__dos__img__proteina" class="imagenProteina">
+                        <p class="main__section__dos__texto__proteina" class="sectionProteina">La proteína es un componente importante de nuestros huesos, músculos, cartílagos, piel y sangre.</p>
                         <a class="btn btn-primary" href="./porfinalidad/proteinas.html" role="button">VER PRODUCTOS</a>
                     </div>
                     <div class="col-lg-6 d-flex-column text-center" class="col-sm-10 d-flex-column justify-content-around">
-                        <img src="./assets/creatinaMn.JPEG" alt="" class="imagenCreatina">
-                        <p class="sectionCreatina">La creatina se utiliza para mejorar el rendimiento del ejercicio y la masa muscular.</p>
+                        <img src="./assets/creatinaMn.JPEG" alt=""  class="main__section__dos__img__creatina" class="imagenCreatina">
+                        <p class="main__section__dos__texto__creatina" class="sectionCreatina">La creatina se utiliza para mejorar el rendimiento del ejercicio y la masa muscular.</p>
                         <a class="btn btn-primary" href="./porfinalidad/creatinas.html" role="button">VER PRODUCTOS</a>
                     </div>    
             </div>
             
     </main>
     
-    <footer>
+    <footer  class="footer">
         <div>
             <form action="">
-                <fieldset class="fieldset-a">
-                    <p>Ingrese su email para poder recibir info , noticias y ofertas de nuestros productos</p>
-                    <label for="Email" class="formularioEmail"></label>
+                <fieldset class="footer__fieldset" class="fieldset-a">
+                    <p class="footer__fieldset_texto">Ingrese su email para poder recibir info , noticias y ofertas de nuestros productos</p>
+                    <label for="Email" class="footer_fieldset__input" class="formularioEmail"></label>
                     <input type="text" name="Email" placeholder="Ingrese su email" id="Email" class="formularioEmail">
-                    <input type="submit" value="Enviar" class="formularioEmail">
-                    <input type="reset" value="Borrar" class="formularioEmail">
+                    <input type="submit" value="Enviar" class="footer_fieldset__input" class="formularioEmail">
+                    <input type="reset" value="Borrar" class="footer_fieldset__input" class="formularioEmail">
                 </fieldset>
             </form>
         </div>
-        <nav>
-            <div class="sectionTarjetas">
-                <p>ACEPTAMOS TARJETAS</p>
-                <a href="" class="tarjetasDePago">American</a>
-                <a href="" class="tarjetasDePago">MasterCard</a>
-                <a href=""class="tarjetasDePago">Visa</a> 
+        <nav class="footer_nav">
+            <div class="footer__nav__tarjetas" class="sectionTarjetas">
+                <p class="footer__nav__texto">ACEPTAMOS TARJETAS</p>
+                <a href="" class="footer__nav__tarjetas__link" class="tarjetasDePago">American</a>
+                <a href="" class="footer__nav__tarjetas__link" class="tarjetasDePago">MasterCard</a>
+                <a href="" class="footer__nav__tarjetas__link" class="tarjetasDePago">Visa</a> 
             </div>
-            <div class="sectionRedes">
-                <p>NUESTRAS REDES</p>
-                <a href="" class="redesSociales">Email</a> 
-                <a href="" class="redesSociales">Facebook</a>
-                <a href="" class="redesSociales">Instragram</a> 
+            <div class="footer_nav__redes" class="sectionRedes">
+                <p class="footer__nav__texto">NUESTRAS REDES</p>
+                <a class="footer_nav__redes__link" href="" class="redesSociales">Email</a> 
+                <a class="footer_nav__redes__link" href="" class="redesSociales">Facebook</a>
+                <a class="footer_nav__redes__link" href="" class="redesSociales">Instragram</a> 
             </div>                          
         </nav>    
     </footer>

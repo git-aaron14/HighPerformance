@@ -1,0 +1,46 @@
+.titulo_donde__comprar{
+    margin-top: 1rem;
+    font-size: 2rem;
+    color:#73706A; 
+    transform:skew(-7deg);
+    text-align: center;
+    
+}
+
+.main__dc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.parrafo__principal__dc{
+    font-size: 1.2rem;
+    transform: skew(-5deg);
+    text-align:center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    word-spacing: 0.5rem;
+    line-height: 1;
+
+}
+
+
+.provincia__dc{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    background-image: linear-gradient(to left, #F2AE2E,#8C5423 );
+}
+
+
+
+.texto__dc{
+    font-size: 1rem;
+    transform: skew(-5deg);
+    text-align:center;
+    word-spacing: 0.5rem;
+    
+
+}

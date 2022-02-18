@@ -1,0 +1,27 @@
+.mainFaq{
+
+    background-image: linear-gradient(to left, #F2AE2E,#8C5423 );
+}
+
+.faqTitulo {
+    font-size: 2rem;
+    transform: skew(-10deg);
+    text-align: center;
+    
+}
+
+.subtituloFaq{
+    font-size: 1.2 rem;
+    margin-bottom: 1rem;
+
+}
+
+.textoFaq{
+    font-size: 1rem;
+    transform: skew(-5deg);
+    text-align:center;
+    margin-bottom: 1rem;
+    word-spacing: 0.5rem;
+    line-height: 1.5;
+
+}
