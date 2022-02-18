@@ -39,7 +39,8 @@
 }
 
 .header__lista{
-    transition: background-color 2s; 
+    transition: background-color 2s !important;
+    margin-bottom: 0 !important; 
 
 }
 
@@ -52,19 +53,31 @@
     display: none;
     position: absolute;
     z-index: 999;
+    
+    
 }
 
 .header__submenu__item{
 
     display:block;
     position:relative;
-    margin-top: 3vh; 
-    color: white;
-    font-size: 1.2 rem;
+    margin-top: 2vh !important; 
+    background-color: #73706A;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 25% ;
 
 }
 
 .header__item:hover ul{
-    display:block;   
+    display:block; 
+      
 
+}
+
+.header__submenu__item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    
 }
