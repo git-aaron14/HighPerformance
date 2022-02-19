@@ -7,55 +7,55 @@
     <meta name="description" content="La creatina nos proporciona energia para las fibras musculares, evitando la fatiga muscular y favorece nuestro entrenamiento.">
     <meta name="keywods" content="creatina, energia, fibras musculares, muscular, entrenamiento, suplementos, redes sociales">
     <title>CREATINAS</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="../assets/gym-logo.JPEG" class="header__logo"  alt="logo-principal" >
         <nav>
-            <ul class="menuPrincipal">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../productos.html">PRODUCTOS</a></li>
-                <li><a href="">PORFINALIDAD</a>
-                    <ul class="subMenu">
-                        <li><a href="./aminoacidos.html">aminoacidos</a></li>
-                        <li><a href="#">creatinas</a></li>
-                        <li><a href="./preentreno.html">preentreno</a></li>
-                        <li><a href="./proteinas.html">proteinas</a></li>    
+            <ul class="header__lista" class="menuPrincipal">
+                <li class="header__item"><a class="header__link" href="../index.html">INICIO</a></li>
+                <li class="header__item"><a class="header__link" href="../productos.html">PRODUCTOS</a></li>
+                <li class="header__item"><a class="header__link" href="">PORFINALIDAD</a>
+                    <ul class="header__submenu" class="subMenu">
+                        <li class="header__submenu__item"><a href="./aminoacidos.html">aminoacidos</a></li>
+                        <li class="header__submenu__item"><a href="#">creatinas</a></li>
+                        <li class="header__submenu__item"><a href="./preentreno.html">preentreno</a></li>
+                        <li class="header__submenu__item"><a href="./proteinas.html">proteinas</a></li>    
                     </ul>
                 </li>
-                <li><a href="../preguntas-frecuentes.html">FAQ</a></li>
-                <li><a href="../donde-comprar.html">DONDE COMPRAR</a></li>
+                <li class="header__item"><a class="header__link" href="../preguntas-frecuentes.html">FAQ</a></li>
+                <li class="header__item"><a class="header__link" href="../donde-comprar.html">DONDE COMPRAR</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1 class="tituloCentral">High Performance</h1>
+    <main class="main">
+        <h1 class="main__titulo__principal">High Performance</h1>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
             <form action="">
-                <fieldset class="fieldset-a">
-                    <p>Ingrese su email para poder recibir info , noticias y ofertas de nuestros productos</p>
+                <fieldset class="footer__fieldset" class="fieldset-a">
+                    <p class="footer__fieldset_texto">Ingrese su email para poder recibir info , noticias y ofertas de nuestros productos</p>
                     <label for="Email" class="formularioEmail"></label>
-                    <input type="text" name="Email" placeholder="Ingrese su email" id="Email" class="formularioEmail">
-                    <input type="submit" value="Enviar" class="formularioEmail">
-                    <input type="reset" value="Borrar" class="formularioEmail">
+                    <input type="text" name="Email" placeholder="Ingrese su email" id="Email" class="footer_fieldset__input" class="formularioEmail">
+                    <input type="submit" value="Enviar" class="footer_fieldset__input" class="formularioEmail">
+                    <input type="reset" value="Borrar" class="footer_fieldset__input" class="formularioEmail">
                 </fieldset>
             </form>
         </div>
-        <nav>
-            <div class="sectionTarjetas">
-                <p>ACEPTAMOS TARJETAS</p>
-                <a href="" class="tarjetasDePago">American</a>
-                <a href="" class="tarjetasDePago">MasterCard</a>
-                <a href=""class="tarjetasDePago">Visa</a> 
+        <nav class="footer_nav">
+            <div class="footer__nav__tarjetas" class="sectionTarjetas">
+                <p class="footer__nav__texto">ACEPTAMOS TARJETAS</p>
+                <a href="" class="footer__nav__tarjetas__link" class="tarjetasDePago">American</a>
+                <a href="" class="footer__nav__tarjetas__link" class="tarjetasDePago">MasterCard</a>
+                <a href="" class="footer__nav__tarjetas__link" class="tarjetasDePago">Visa</a> 
             </div>
             <div class="sectionRedes">
-                <p>NUESTRAS REDES</p>
-                <a href="" class="redesSociales">Email</a> 
-                <a href="" class="redesSociales">Facebook</a>
-                <a href="" class="redesSociales">Instragram</a> 
+                <p class="footer__nav__texto">NUESTRAS REDES</p>
+                <a href="" class="footer_nav__redes__link" class="redesSociales">Email</a> 
+                <a href="" class="footer_nav__redes__link" class="redesSociales">Facebook</a>
+                <a href="" class="footer_nav__redes__link" class="redesSociales">Instragram</a> 
             </div>                          
         </nav>    
     </footer>
