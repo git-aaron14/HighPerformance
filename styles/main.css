@@ -281,8 +281,8 @@
   text-align: center;
 }
 
-.subtituloFaq {
-  font-size: 1.2 rem;
+.subtitulosFaq {
+  font-size: 1.2 rem !important;
   margin-bottom: 1rem;
 }
 
@@ -356,8 +356,10 @@
 
 .tituloProductos {
   margin-top: 2vh;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #73706A;
+  -webkit-transform: skew(-7deg);
+          transform: skew(-7deg);
 }
 
 .main__padre {
