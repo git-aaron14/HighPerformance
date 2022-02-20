@@ -426,4 +426,259 @@
   background-color: #8C5423 !important;
   border-radius: 25% !important;
 }
+
+.main__padre__aminoacidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.titulo__aminoacidos {
+  font-size: 2rem;
+  color: #73706A;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contenedor__aminoacidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #8C5423;
+  width: 35rem;
+}
+
+.img__aminoacidos {
+  height: 200px;
+  width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.producto__nombre__aminoacidos {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.producto__p__aminoacidos {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.titulo__creatina {
+  font-size: 2rem;
+  color: #73706A;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main__padre__creatina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedor__creatina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #8C5423;
+  width: 35rem;
+}
+
+.imagen__creatina {
+  height: 200px;
+  width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.producto__nombre__creatina {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.producto__p__creatina {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.titulo__preentreno {
+  font-size: 2rem;
+  color: #73706A;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main__padre__preentreno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedor__preentreno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #8C5423;
+  width: 35rem;
+}
+
+.imagen__preentreno {
+  height: 200px;
+  width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.producto__nombre__preentreno {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.producto__p__preentreno {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.titulo__proteina {
+  font-size: 2rem;
+  color: #73706A;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main__padre__proteina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main__padre__proteina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedor__proteina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #8C5423;
+  width: 35rem;
+}
+
+.imagen__proteina {
+  height: 200px;
+  width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.producto__nombre__proteina {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.producto__p__proteina {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,51 @@
+.titulo__proteina{
+    font-size: 2rem;
+    color: #73706A;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.main__padre__proteina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+    justify-content: space-around;
+}
+
+.main__padre__proteina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+    justify-content: space-around;
+}
+.contenedor__proteina{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8C5423;
+    width: 35rem;
+}
+
+.imagen__proteina{
+    height: 200px;
+    width: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30%;
+    object-fit: cover;
+}
+
+.producto__nombre__proteina{
+    font-size: 1.5rem ;
+    color:white;
+}
+
+.producto__p__proteina{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+
+}
