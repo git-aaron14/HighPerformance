@@ -769,7 +769,8 @@
     display: grid;
     place-items: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
     -webkit-transform: skew(-8deg);
             transform: skew(-8deg);
   }
