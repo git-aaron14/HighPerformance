@@ -1,9 +1,9 @@
 .main{
-    background-color: #F2AE2E;
+    background-color: #002945;
 }
 .main__titulo__principal{
     transform: skew(-10deg);
-    color: black ;
+    color: white ;
     font-size: 4rem;
     font-weight: 600;
     text-align: center ;
@@ -40,7 +40,7 @@
 .main__section__dos__texto__proteina{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: #8C5423 ;
+    background-color: #312244  ;
     color: white;
     font-size: 1.1rem;
     line-height: 2; 
@@ -50,7 +50,7 @@
 .main__section__dos__texto__creatina{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: #8C5423 ;
+    background-color: #312244 ;
     color: white;
     font-size: 1.1rem;
     line-height: 2; 
@@ -58,8 +58,8 @@
 }
 
 .main__section__dos__btn{
-    color:black !important;
-    background-color: #8C5423 !important;
+    color:white !important;
+    background-color: #312244 !important;
     border-radius: 25% !important;
 }
 

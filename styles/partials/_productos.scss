@@ -4,9 +4,9 @@
     justify-content: center;
     font-size: 5rem;
     font-weight: 600;
-    color:#73706A;
+    color:white;
     transform:skew(-7deg); 
-    background-image:linear-gradient(to left, #F2AE2E,#8C5423 ) ;  
+    background-image:linear-gradient(to left, #00406c,#002945) ;  
 }
 
 .main__padre{
@@ -21,7 +21,7 @@
     align-items: center;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    background-image: linear-gradient(to left, #F2AE2E,#8C5423 );
+    background-image: linear-gradient(to left, #00406c,#002945 );
 }
 
 .img__productos{
@@ -44,7 +44,8 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
     transform: skew(-10deg);
-    background-color: #F2AE2E;
+    background-color: #312244;
+    color: white;
 
 }
 
@@ -56,13 +57,14 @@
     margin-top:1rem;
     word-spacing: 0.5rem;
     line-height: 2;
-    background-color: #F2AE2E;
+    background-color: #312244;
+    color: white;
 
 }
 
 .btn__productos{
-    color:black !important;
-    background-color: #8C5423 !important;
+    color:white !important;
+    background-color: #312244 !important;
     border-radius: 25% !important;
     margin-bottom: 1rem;
 }

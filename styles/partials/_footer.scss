@@ -1,13 +1,13 @@
 .footer{
-    background-color:#8C5423 ;
+    background-color:#002945 ;
 }
 .footer__fieldset{
-    background-color:#73706A ;
+    background-color:#144552 ;
 
 }
 .footer__fieldset_texto{
     color: white;
-    background-color:#F2AE2E ;
+    background-color:#312244 ;
     text-align: start;
     font-size: 1.3rem;
     word-spacing: 0.5rem;
@@ -55,15 +55,15 @@
 .footer__nav__texto{
     font-size: 1.5rem;
     text-align: center;
-    background-color: #F2AE2E;
-    color:black;
+    background-color: #144552;
+    color:white;
     margin-bottom: 1rem;
 }
 
 .footer_nav__redes__link{
     transition: background-color 2s;
     text-decoration: none;
-    background-color:#73706A ;
+    background-color:#144552 ;
     color:white;  
     font-size: 1.2rem;
     text-align: center;
@@ -73,13 +73,13 @@
 }
 
 .footer_nav__redes__link:hover{
-    background-color: #F2AE2E;
+    background-color: #002945;
 }
 
 .footer__nav__tarjetas__link{
     transition: background-color 2s;
     text-decoration: none;
-    background-color:#73706A ;
+    background-color:#144552 ;
     color:white;  
     font-size: 1.2rem;
     text-align: center;
@@ -89,6 +89,6 @@
 
 }
 .footer__nav__tarjetas__link:hover{
-    background-color: #F2AE2E;
+    background-color: #002945;
 
 }
