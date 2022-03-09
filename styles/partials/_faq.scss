@@ -3,25 +3,38 @@
     background-image: linear-gradient(to left, #F2AE2E,#8C5423 );
 }
 
-.faqTitulo {
-    font-size: 2rem;
+.faq__Titulo {
+    font-size: 4rem;
+    font-weight: 600;
     transform: skew(-10deg);
     text-align: center;
+    margin-bottom: 1rem;
     
 }
 
-.subtitulosFaq{
-    font-size: 1.2 rem!important;
+.subtitulos__Faq{
+    font-size: 2.5rem!important;
+    font-weight: 600;
     margin-bottom: 1rem;
+    text-align: center;
 
 }
 
-.textoFaq{
-    font-size: 1rem;
-    transform: skew(-5deg);
-    text-align:center;
+.texto__Faq{
+    margin-top: 1rem;
     margin-bottom: 1rem;
-    word-spacing: 0.5rem;
+    font-size: 1.5rem;
+    text-align:center;
     line-height: 1.5;
+    word-spacing: 0.8rem;
+
+}
+
+.texto__Faq__ult{
+    margin-bottom: 0rem !important;
+    font-size: 1.5rem;
+    text-align:center;
+    line-height: 1.5;
+    word-spacing: 0.8rem;
 
 }

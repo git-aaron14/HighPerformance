@@ -1,15 +1,12 @@
-.tituloProductos{
+.titulo__Productos{
 
     display: flex;
-    justify-content: center;    
-}
-
-
-.tituloProductos {
-    margin-top: 2vh;
-    font-size: 2rem;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 600;
     color:#73706A;
-    transform:skew(-7deg);    
+    transform:skew(-7deg); 
+    background-image:linear-gradient(to left, #F2AE2E,#8C5423 ) ;  
 }
 
 .main__padre{
@@ -43,20 +40,22 @@
 }
 
 .titulo__main__productos{
-    font-size: 1.2 rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     transform: skew(-10deg);
     background-color: #F2AE2E;
 
 }
 
 .texto__main__productos{
-    font-size: 1rem;
+    font-size: 1.2rem;
     transform: skew(-5deg);
     text-align:center;
     margin-bottom: 1rem;
+    margin-top:1rem;
     word-spacing: 0.5rem;
-    line-height: 1;
+    line-height: 2;
     background-color: #F2AE2E;
 
 }
@@ -65,4 +64,5 @@
     color:black !important;
     background-color: #8C5423 !important;
     border-radius: 25% !important;
+    margin-bottom: 1rem;
 }

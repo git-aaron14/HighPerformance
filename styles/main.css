@@ -3,6 +3,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .header {
@@ -27,8 +28,8 @@
 }
 
 .header__logo {
-  width: 75px;
-  height: 75px;
+  width: 4rem;
+  height: 4rem;
   border-radius: 20%;
   -webkit-transition: skew 2s;
   transition: skew 2s;
@@ -42,16 +43,15 @@
 .header__item {
   display: inline-block;
   background-color: #73706A;
-  margin: 5px 10px;
-  border: 5px 5px;
-  padding: 5px 10px 5px 10px;
+  margin: 10px 10px;
+  padding: 8px 8px;
   border-radius: 25%;
 }
 
 .header__link {
   color: white;
   text-decoration: none;
-  font-size: 1.2 rem;
+  font-size: 1.2rem;
 }
 
 .header__lista {
@@ -75,8 +75,8 @@
   position: relative;
   margin-top: 2vh !important;
   background-color: #73706A;
-  margin: 5px 10px;
-  padding: 5px 10px;
+  margin: 10px 10px;
+  padding: 8px 8px;
   border-radius: 25%;
 }
 
@@ -97,13 +97,11 @@
 .main__titulo__principal {
   -webkit-transform: skew(-10deg);
           transform: skew(-10deg);
-  font-family: sans-serif;
-  color: #73706A;
-  font-size: 2.5rem;
+  color: black;
+  font-size: 4rem;
+  font-weight: 600;
   text-align: center;
-  padding: 5px 10px;
-  border: 5px 10px;
-  margin: 10px 10px;
+  margin-bottom: 2rem;
 }
 
 .main__hero__section {
@@ -118,6 +116,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.main__section__hero__mq {
+  display: none;
 }
 
 .main__section__dos__img__proteina {
@@ -141,8 +143,8 @@
   margin-bottom: 1rem;
   background-color: #8C5423;
   color: white;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 2;
 }
 
 .main__section__dos__texto__creatina {
@@ -150,14 +152,19 @@
   margin-bottom: 1rem;
   background-color: #8C5423;
   color: white;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 2;
 }
 
 .main__section__dos__btn {
   color: black !important;
   background-color: #8C5423 !important;
   border-radius: 25% !important;
+}
+
+.main__cont__section__dos {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer {
@@ -172,15 +179,16 @@
   color: white;
   background-color: #F2AE2E;
   text-align: start;
-  font-size: 1.2rem;
-  word-spacing: 2px;
+  font-size: 1.3rem;
+  word-spacing: 0.5rem;
+  letter-spacing: 2;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .footer_fieldset__input {
   margin-bottom: 1rem;
-  padding: 10px;
+  padding: 8px 8px;
   border-radius: 30%;
 }
 
@@ -234,7 +242,7 @@
     border-radius: 30%;
 }*/
 .footer__nav__texto {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
   background-color: #F2AE2E;
   color: black;
@@ -247,10 +255,10 @@
   text-decoration: none;
   background-color: #73706A;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
-  padding: 10px;
-  margin: 10px;
+  margin: 8px 8px;
+  padding: 8px 8px;
   border-radius: 30%;
 }
 
@@ -264,10 +272,10 @@
   text-decoration: none;
   background-color: #73706A;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
-  padding: 10px;
-  margin: 10px;
+  margin: 8px 8px;
+  padding: 8px 8px;
   border-radius: 30%;
 }
 
@@ -280,35 +288,46 @@
   background-image: linear-gradient(to left, #F2AE2E, #8C5423);
 }
 
-.faqTitulo {
-  font-size: 2rem;
+.faq__Titulo {
+  font-size: 4rem;
+  font-weight: 600;
   -webkit-transform: skew(-10deg);
           transform: skew(-10deg);
   text-align: center;
-}
-
-.subtitulosFaq {
-  font-size: 1.2 rem !important;
   margin-bottom: 1rem;
 }
 
-.textoFaq {
-  font-size: 1rem;
-  -webkit-transform: skew(-5deg);
-          transform: skew(-5deg);
+.subtitulos__Faq {
+  font-size: 2.5rem !important;
+  font-weight: 600;
+  margin-bottom: 1rem;
   text-align: center;
+}
+
+.texto__Faq {
+  margin-top: 1rem;
   margin-bottom: 1rem;
-  word-spacing: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
   line-height: 1.5;
+  word-spacing: 0.8rem;
+}
+
+.texto__Faq__ult {
+  margin-bottom: 0rem !important;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+  word-spacing: 0.8rem;
 }
 
 .titulo_donde__comprar {
-  margin-top: 1rem;
-  font-size: 2rem;
-  color: #73706A;
-  -webkit-transform: skew(-7deg);
-          transform: skew(-7deg);
+  font-size: 4rem;
+  font-weight: 600;
+  -webkit-transform: skew(-10deg);
+          transform: skew(-10deg);
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .main__dc {
@@ -324,18 +343,20 @@
 }
 
 .parrafo__principal__dc {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   -webkit-transform: skew(-5deg);
           transform: skew(-5deg);
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
   word-spacing: 0.5rem;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .provincia__dc {
-  font-size: 1.4rem;
+  font-size: 2rem;
+  font-weight: 600;
   margin-bottom: 1rem;
   text-align: center;
   margin-top: 1rem;
@@ -344,28 +365,27 @@
 }
 
 .texto__dc {
-  font-size: 1rem;
+  font-size: 1.2rem;
   -webkit-transform: skew(-5deg);
           transform: skew(-5deg);
   text-align: center;
-  word-spacing: 0.5rem;
+  word-spacing: 1rem;
 }
 
-.tituloProductos {
+.titulo__Productos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.tituloProductos {
-  margin-top: 2vh;
-  font-size: 2rem;
+  font-size: 5rem;
+  font-weight: 600;
   color: #73706A;
   -webkit-transform: skew(-7deg);
           transform: skew(-7deg);
+  background-image: -webkit-gradient(linear, right top, left top, from(#F2AE2E), to(#8C5423));
+  background-image: linear-gradient(to left, #F2AE2E, #8C5423);
 }
 
 .main__padre {
@@ -409,21 +429,23 @@
 }
 
 .titulo__main__productos {
-  font-size: 1.2 rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   -webkit-transform: skew(-10deg);
           transform: skew(-10deg);
   background-color: #F2AE2E;
 }
 
 .texto__main__productos {
-  font-size: 1rem;
+  font-size: 1.2rem;
   -webkit-transform: skew(-5deg);
           transform: skew(-5deg);
   text-align: center;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   word-spacing: 0.5rem;
-  line-height: 1;
+  line-height: 2;
   background-color: #F2AE2E;
 }
 
@@ -431,6 +453,7 @@
   color: black !important;
   background-color: #8C5423 !important;
   border-radius: 25% !important;
+  margin-bottom: 1rem;
 }
 
 .main__padre__aminoacidos {
@@ -449,7 +472,8 @@
 }
 
 .titulo__aminoacidos {
-  font-size: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
   color: #73706A;
   text-align: center;
   margin-bottom: 1rem;
@@ -469,7 +493,11 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #8C5423;
-  width: 35rem;
+  width: 30rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .img__aminoacidos {
@@ -484,7 +512,9 @@
 
 .producto__nombre__aminoacidos {
   font-size: 1.5rem;
+  font-weight: 600;
   color: white;
+  margin-bottom: 1rem;
 }
 
 .producto__p__aminoacidos {
@@ -494,7 +524,8 @@
 }
 
 .titulo__creatina {
-  font-size: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
   color: #73706A;
   text-align: center;
   margin-bottom: 1rem;
@@ -529,7 +560,11 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #8C5423;
-  width: 35rem;
+  width: 30rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .imagen__creatina {
@@ -544,7 +579,9 @@
 
 .producto__nombre__creatina {
   font-size: 1.5rem;
+  font-weight: 600;
   color: white;
+  margin-bottom: 1rem;
 }
 
 .producto__p__creatina {
@@ -554,7 +591,8 @@
 }
 
 .titulo__preentreno {
-  font-size: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
   color: #73706A;
   text-align: center;
   margin-bottom: 1rem;
@@ -589,7 +627,11 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #8C5423;
-  width: 35rem;
+  width: 30rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .imagen__preentreno {
@@ -604,7 +646,9 @@
 
 .producto__nombre__preentreno {
   font-size: 1.5rem;
+  font-weight: 600;
   color: white;
+  margin-bottom: 1rem;
 }
 
 .producto__p__preentreno {
@@ -614,25 +658,11 @@
 }
 
 .titulo__proteina {
-  font-size: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
   color: #73706A;
   text-align: center;
   margin-bottom: 1rem;
-}
-
-.main__padre__proteina {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 1rem 1rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .main__padre__proteina {
@@ -664,7 +694,11 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #8C5423;
-  width: 35rem;
+  width: 30rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .imagen__proteina {
@@ -679,7 +713,9 @@
 
 .producto__nombre__proteina {
   font-size: 1.5rem;
+  font-weight: 600;
   color: white;
+  margin-bottom: 1rem;
 }
 
 .producto__p__proteina {

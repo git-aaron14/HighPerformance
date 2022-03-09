@@ -1,9 +1,9 @@
 .titulo_donde__comprar{
-    margin-top: 1rem;
-    font-size: 2rem;
-    color:#73706A; 
-    transform:skew(-7deg);
+    font-size: 4rem;
+    font-weight: 600;
+    transform: skew(-10deg);
     text-align: center;
+    margin-bottom: 1rem;
     
 }
 
@@ -15,19 +15,21 @@
 
 
 .parrafo__principal__dc{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     transform: skew(-5deg);
     text-align:center;
     margin-bottom: 1rem;
     margin-top: 1rem;
     word-spacing: 0.5rem;
-    line-height: 1;
+    line-height: 1.5;
 
 }
 
 
 .provincia__dc{
-    font-size: 1.4rem;
+    font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 1rem;
     text-align: center;
     margin-top: 1rem;
@@ -37,10 +39,10 @@
 
 
 .texto__dc{
-    font-size: 1rem;
+    font-size: 1.2rem;
     transform: skew(-5deg);
     text-align:center;
-    word-spacing: 0.5rem;
+    word-spacing: 1rem;
     
 
 }
