@@ -733,4 +733,122 @@
   color: white;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .section__hero__mq {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: -webkit-gradient(linear, right top, left top, from(#00406c), to(#312244));
+    background-image: linear-gradient(to left, #00406c, #312244);
+  }
+  .main__section__hero__mq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-image: url(../assets/Bproteinas.JPEG.JPEG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+  .main__section__hero__mq__p {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1.5rem;
+    -webkit-transform: skew(-8deg);
+            transform: skew(-8deg);
+  }
+  .sectionHero {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: -webkit-gradient(linear, right top, left top, from(#312244), to(#144552));
+    background-image: linear-gradient(to left, #312244, #144552);
+  }
+  .menuPrincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sectionHero {
+    display: none;
+  }
+  .section__hero__mq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-image: url(../assets/Bproteinas.JPEG.JPEG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+  .main__section__hero__mq__p {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1.5rem;
+    -webkit-transform: skew(-8deg);
+            transform: skew(-8deg);
+  }
+  .footer {
+    background-image: -webkit-gradient(linear, right top, left top, from(#312244), to(#144552));
+    background-image: linear-gradient(to left, #312244, #144552);
+  }
+  .footer_nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=main.css.map */
