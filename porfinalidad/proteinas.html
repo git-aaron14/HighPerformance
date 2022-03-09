@@ -15,24 +15,43 @@
 </head>
 <body>
     <header class="header">
-        <img src="../assets/gym-logo.JPEG" class="header__logo"  alt="logo-principal" >
-        <nav>
-            <ul class="header__lista" class="menuPrincipal">
-                <li class="header__item"><a class="header__link" href="../index.html">INICIO</a></li>
-                <li class="header__item"><a class="header__link" href="../productos.html">PRODUCTOS</a></li>
-                <li class="header__item"><a class="header__link" href="">POR CATEGORIA</a>
-                    <ul class="header__submenu" class="subMenu">
-                        <li class="header__submenu__item"><a href="./aminoacidos.html">aminoacidos</a></li>
-                        <li class="header__submenu__item"><a href="./creatinas.html">creatinas</a></li>
-                        <li class="header__submenu__item"><a href="./preentreno.html">preentreno</a></li>
-                        <li class="header__submenu__item"><a href="#">proteinas</a></li>    
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#00406c;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../assets/gym-logo.JPEG" class="header__logo" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item header__item">
+                    <a class="nav-link active header__link" aria-current="page" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item header__item">
+                    <a class="nav-link header__link" href="../productos.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item dropdown header__item">
+                    <a class="nav-link dropdown-toggle header__link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      POR CATEGORIA
+                    </a>
+                    <ul class="dropdown-menu header__submenu__fondo" aria-labelledby="navbarDropdownMenuLink">
+                      <li class="header__submenu__item"><a class="dropdown-item header__submenu__item__a" href="./aminoacidos.html">AMINOACIDOS</a></li>
+                      <li class="header__submenu__item"><a class="dropdown-item header__submenu__item__a" href="./creatinas.html">CREATINAS</a></li>
+                      <li class="header__submenu__item"><a class="dropdown-item header__submenu__item__a" href="./preentreno.html">PRE ENTRENO</a></li>
+                      <li class="header__submenu__item"><a class="dropdown-item header__submenu__item__a" href="#">PROTEINAS</a></li>
                     </ul>
-                </li>
-                <li class="header__item"><a class="header__link" href="../preguntas-frecuentes.html">FAQ</a></li>
-                <li class="header__item"><a class="header__link" href="../donde-comprar.html">DONDE COMPRAR</a></li>
-            </ul>
-        </nav>
+                  </li>
+                  <li class="nav-item header__item">
+                    <a class="nav-link header__link" href="../preguntas-frecuentes.html">FAQ</a>
+                  </li>
+                  <li class="nav-item header__item">
+                    <a class="nav-link header__link" href="../donde-comprar.html">DONDE COMPRAR</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
+    
     <main class="main">
         <h1 class="main__titulo__principal">High Performance</h1>
         <h2 class="titulo__proteina">PROTEINA</h2>

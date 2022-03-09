@@ -7,20 +7,19 @@
 }
 
 .header {
-  background-image: -webkit-gradient(linear, right top, left top, from(#00406c), to(#002945));
-  background-image: linear-gradient(to left, #00406c, #002945);
+  background-color: #00406c;
   border: 3px groove #002945;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -43,13 +42,14 @@
 .header__item {
   display: inline-block;
   background-color: #144552;
-  margin: 10px 10px;
+  margin: 5px 10px;
   padding: 8px 8px;
   border-radius: 25%;
+  text-align: center;
 }
 
 .header__link {
-  color: white;
+  color: white !important;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -78,6 +78,7 @@
   margin: 10px 10px;
   padding: 8px 8px;
   border-radius: 25%;
+  text-align: center;
 }
 
 .header__item:hover ul {
@@ -88,6 +89,18 @@
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
+}
+
+.header__submenu__item__a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.header__submenu__fondo {
+  background-color: transparent !important;
+  border-radius: 20% !important;
+  border: 0px !important;
 }
 
 .main {
@@ -746,8 +759,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-image: -webkit-gradient(linear, right top, left top, from(#00406c), to(#312244));
-    background-image: linear-gradient(to left, #00406c, #312244);
   }
   .main__section__hero__mq {
     display: -webkit-box;
